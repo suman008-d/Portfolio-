@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <button onclick="alert('Button clicked!')">Click Me</button>
+    <script>
+        // This is a simple JavaScript code that runs when the page loads
+        window.onload = function() {
+            console.log('Page has loaded');
+        };
+        const sum = (a, b) => a + b;
+        console.log('Sum of 5 and 3 is:', sum(5, 3));
+        const arr = [1, 2, 3, 4, 5];
+        arr.forEach(val => {    
+            console.log(val);
+        });
+        for (let i=0; i<5; i++) {
+            console.log( i);
+        }
+    </script>
+</body>
+</html>
